@@ -27,6 +27,10 @@ body{
     opacity: 70%;
     font-size: 1.5rem;
 }
+
+.nav-element:hover {
+    color: #d74736;
+}
 .logo{
     margin-right: auto;
     margin-left: 22rem;
