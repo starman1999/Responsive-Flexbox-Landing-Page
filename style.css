@@ -34,11 +34,17 @@ body{
 .navbar li {
     list-style-type: none;
     padding: 1rem;
+    color: #02011c;
+
 }
 .navbar a {
     text-decoration: none;
-}
+    color: #02011c;
 
+}
+a:hover{
+    color: #d74736;
+}
 .navbar-logo {
     flex:1;
     user-select: none;
