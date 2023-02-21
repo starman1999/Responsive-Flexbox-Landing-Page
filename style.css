@@ -29,6 +29,8 @@ body{
     font-size: 1.5rem;
 }
 
+
+
 .nav-element:hover {
     color: #d74736;
 }
@@ -43,6 +45,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 2.2rem;
+    overflow-x: hidden;
 }
 
 .image-full {
@@ -63,16 +66,16 @@ body{
 }
 
 .headline {
-    font-size: 4.2rem;
-    width: 40%;
+    font-size: 4rem;
+    width: 25rem;
     line-height:100%;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .main-paragraph{
 
     margin-top: 4rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: rgb(91, 91, 91);
     display: inline-block;
 }
@@ -82,7 +85,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 32rem;
+    width: 30rem;
     margin-left: 3rem;
 }
 
@@ -196,6 +199,18 @@ body{
         overflow-y: hidden;
     }
 
+    .nav-flex-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+        margin-top: 4rem;
+        background-color: red;
+        width: 32rem;
+    }
+    .logo{
+        margin:0;
+        
+    }
     .other{
         flex-direction: column;
     }
@@ -210,19 +225,20 @@ body{
     
     .logo{
         margin-left: 1rem;
+        flex-grow: 0;
     }
 
     .main-content{
         margin-left: 1rem;
     }
 
+
+
     .paragraph-button {
         margin-left: 0;
     }
 
-    .new-content {
-        margin-left: 1rem;
-    }
+
 
     .other {
         margin-top: 3rem;
@@ -235,7 +251,12 @@ body{
 
     .image-mobile{
         display: block;
-        height: 240px;
+        height: 270px;
+    }
+
+    .hamburger-menu {
+        display: inline-block;
+        height: 2rem;
     }
 }
 
